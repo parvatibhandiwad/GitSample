@@ -1,0 +1,15 @@
+<suite name="Suite">
+    <test name="Submit Order Test">
+        <groups>
+            <run>
+                <include name="Purchase"/>
+                
+            </run>
+        </groups>
+        
+        <test thread-count="5" name="Submit Order Test">
+        <classes>
+            <class name="rahulshettyacademy.tests.SubmitOrderTest"/>
+        </classes>
+    </test>
+</suite>
